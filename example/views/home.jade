@@ -93,6 +93,9 @@
       input(type='submit') Login
 - else
   h2 Authenticated
+  - if (everyauth.att)
+    h3 ATT Foundry User Data
+    p= JSON.stringify(everyauth.att.user)
   - if (everyauth.facebook)
     h3 Facebook User Data
     p= JSON.stringify(everyauth.facebook.user)

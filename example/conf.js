@@ -1,4 +1,8 @@
 module.exports = {
+	att: {
+        appId: '61434adb23010cc1558c3e14869c4571'
+      , appSecret: '5edd008a799b455b'
+    },
     fb: {
         appId: '111565172259433'
       , appSecret: '85f7e0a0cc804886180b887c1f04a3c1'
